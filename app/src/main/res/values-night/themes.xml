@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HospitalServiceApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Main theme colors -->
+        <item name="colorPrimary">@color/deep_sky_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/light_sky_blue</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+
+        <item name="android:windowBackground">@color/light_sky_blue</item>
+
+        <!-- Force all text and UI elements to black for maximum readability -->
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:editTextColor">@color/black</item>
+
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnSurfaceVariant">@color/black</item>
+        <item name="colorOutline">@color/black</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <!-- Controls the color of the cursor and selection handles -->
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+</resources>
